@@ -1,0 +1,52 @@
+.button{
+    border-radius: 18px;
+    border: none;
+    column-gap: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+    transition: background-color 0.3s ease;
+}
+
+/* primary*/
+.button.primary{
+    background-color: blue;
+    color: white;
+}
+.button.primary:hover{
+    background-color: blue;
+    
+}
+.button.secondary{
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+.button.secondary:hover{
+    background-color: grey;
+    
+}
+.secondary.outline{
+    background-color: white;
+    color: blue;
+    border:2px  solid;
+}
+.secondary.outline:hover{
+    background-color:blue;
+    color: white;
+    
+}
+
+.secondary:disabled, .button:disabled>:hover{
+    background-color: #ccc;
+    color: grey;
+    pointer-events: none;
+}
+.primary:disabled, .button:disabled>:hover{
+    background-color: #ccc;
+    color: grey;
+    pointer-events: none;
+}
+
+

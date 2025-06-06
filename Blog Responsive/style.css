@@ -1,0 +1,404 @@
+#footer-escopo{
+    background-color: #02A28F;
+    height: 70px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;   
+}
+
+#font-escopo{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding-left: 12rem;
+    font-weight: 700;
+}
+#initial-marketing{
+    padding-top: 1rem;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+#marketing-principal{
+    
+    width: 47rem;
+    border-radius: 10px; 
+    background-repeat: no-repeat;
+    display: grid;    
+}
+#text-principal > h3,h2,h1 {
+    color: white;
+    margin: 0;
+    padding-left: 1rem;
+    
+}
+#text-principal{
+    padding-top: 18.5rem;    
+}
+#text-principal > h3 {
+    color: white;
+    margin: 0;
+    padding-left: 1rem; 
+    font-weight: 400;
+    font-family: montserrat; 
+    font-size: 1rem;  
+}
+#text-principal > h1 {
+    color: white;
+    margin: 0;
+    padding-left: 1rem; 
+    font-weight: 700;
+    font-family: montserrat; 
+    font-size: 2rem;  
+}
+#text-principal > h2 {
+    color: white;
+    margin: 0;
+    padding-left: 1rem; 
+    font-weight: 500;
+    font-family: montserrat; 
+    font-size: 1rem;  
+}
+#post-initial{
+    width: 23rem;
+    height: 25rem;
+    padding-left: 1rem;    
+}
+.text-populars{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: montserrat;
+}
+#post-popular{
+    background-color: #02A28F;
+    height: 3rem;
+    border-radius: 1rem;    
+    padding-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 9px;
+}
+#post-popular > h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: montserrat;
+}
+.card-popular{
+    display: grid;
+    grid-template-columns: repeat(2,0.4fr);
+    height: 6rem;
+    box-shadow: 0px 10px 10px rgb(201, 197, 197);
+    margin-top: 1rem;    
+    padding-left: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.card-popular-text > h3 {
+    font-family: montserrat;
+    font-size: 11px;
+    font-weight: 700;
+}
+.card-popular-text > h4 {
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 500;
+}
+#post-recent > h3{
+    background-color: #02A28F;
+    color: white;
+    width: 45.7rem;
+    height: 3rem;
+    border-radius: 10px;    
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    margin-top: 9px;
+    font-weight: 700;
+    font-family: montserrat;
+    font-size: 20px;
+    margin-left: 1.2rem;
+}
+#category{    
+    color: white;
+    width: 22.5rem;
+    height: 2.5rem;
+    border-radius: 1rem;    
+    padding-left: 1rem;
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: montserrat;
+    background-color: #02A28F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 3rem;
+}
+#cat-and-post{
+    padding-top: 2rem;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);    
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+#posts{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    grid-template-columns: repeat(2,1fr);    
+    gap: 1rem;    
+    background-repeat: no-repeat;
+    
+
+}
+#menu-category{
+    width: 23rem;
+    margin-left: 1rem;    
+}
+#post-geral{
+    width: 47rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2;    
+    gap: 3rem;
+    background-repeat: no-repeat;       
+    
+}
+#post-individual{
+    display: flex;
+    width: 46rem;    
+    grid-template-columns: 2;
+    background-repeat: no-repeat;   
+    gap: 1rem;
+}
+.font-title-posts{
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #02A28F;    
+}
+.font-subtitle-posts{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 20px;
+ 
+}
+.font-text-post{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: montserrat;
+}
+.font-text-post-date{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: montserrat;
+}
+#copyright{
+    background-color: #02A28F;
+    width: auto;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#copyright > h3 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: montserrat;
+}
+#text-category{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    margin-top: 0.6rem; 
+}
+.config-margin{
+    margin-top: 9px;
+}
+.config-card-post{
+    box-shadow: 0px 5px 0px rgb(241, 240, 240);
+    border-radius: 10px;
+}
+.conf-textcategories{
+    font-weight: 600;
+    font-family: montserrat;
+    font-size: 1rem;
+    margin: 6px;
+}
+#configtext-category{
+    font-size: 20px;
+    font-family: montserrat;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    background-color: #02A28F;
+    border-radius: 10px;
+    height: 3rem;
+    align-items: center;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-top: 2.3rem;
+}
+@media only screen and (max-width: 768px){
+    #footer-escopo{
+        background-color: #02A28F;
+        height: 70px;
+        width: 767px;
+        align-items: center;
+        justify-content: center;
+        display: flex;   
+    }
+    
+    #font-escopo{
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        padding: 0;
+        font-weight: 700;
+    }
+    
+    #initial-marketing{
+        padding-top: 0rem;
+        display: flex;
+        width: 384px;
+        justify-content: center;
+        align-items: center;  
+        flex-direction: column;      
+    }
+    #marketing-principal{        
+        border-radius: 10px;
+        width: 100vh;           
+    }
+    #posts{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #post-geral{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;        
+    }
+    #post-individual{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .config-card-post{
+        box-shadow: 0px 5px 0px rgb(241, 240, 240);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;        
+    }
+    .config-postimg{
+        width: 750px;
+    }
+    .font-title-posts{
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        color: #02A28F;    
+    }
+    .font-subtitle-posts{
+        font-family: montserrat;
+        font-weight: 700;
+        font-size: 20px;
+     
+    }
+    .font-text-post{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: montserrat;
+    }
+    .font-text-post-date{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: montserrat;
+    }
+    
+    #post-initial{
+        width: 750px;
+        height: 25rem;  
+        margin-left: 23rem;      
+    }
+    #configtext-category{
+        font-size: 20px;
+        font-family: montserrat;
+        font-weight: 700;
+        color: white;
+        width: 750px;
+        background-color: #02A28F;
+        border-radius: 10px;
+        height: 3rem;
+        align-items: center;
+        padding-left: 1rem;
+        margin-left: 24rem;
+        
+    }
+    #post-popular{
+        background-color: #02A28F;
+        height: 3rem;
+        border-radius: 1rem;    
+        padding-left: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 9px;
+    }
+    #post-popular > h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: montserrat;
+    }
+    .card-popular{
+        display: grid;
+        grid-template-columns: repeat(2,0.4fr);
+        height: 6rem;
+        box-shadow: 0px 10px 10px rgb(201, 197, 197);
+        margin-top: 1rem;    
+        padding-left: 0.5rem;
+        justify-content: flex-start;
+        align-items: center;    
+    }
+    #menu-category{
+        width: 750px;
+        margin-left: 24rem;
+        
+    }
+    #text-category{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        margin-top: 0; 
+    }
+    #copyright{
+        background-color: #02A28F;
+        width: 767px;
+        height: 3rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    #copyright > h3 {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: montserrat;
+    }
+}
